@@ -1,0 +1,27 @@
+/* ==UserStyle==
+ @name         PS! userlist icons
+ @namespace    github.com/parnassius
+ @version      %version%
+ @license      MIT
+ @preprocessor default
+ ==/UserStyle== */
+
+@-moz-document domain("play.pokemonshowdown.com") {
+
+.userlist li button {
+    position: relative;
+}
+.userlist li button::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    bottom: 0;
+    background-image: url("https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v5");
+    background-repeat: no-repeat;
+    background-position: 40px 0;
+    width: 40px;
+}
+%icons%
+}

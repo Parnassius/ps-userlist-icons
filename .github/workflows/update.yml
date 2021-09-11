@@ -1,0 +1,37 @@
+name: test
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        path: ps-userlist-icons
+    - name: Clone pokemon showdown client
+      uses: actions/checkout@v2
+      with:
+        repository: smogon/pokemon-showdown-client
+        path: pokemon-showdown-client
+    - name: Set up node
+      uses: actions/setup-node@v2
+    - name: Build pokemon showdown client
+      run: pokemon-showdown-client/build full
+    - name: Update files
+      run: |
+        wget -O ps-userlist-icons/data.json ${{ secrets.JSON_DATA_URL }}
+        node ps-userlist-icons/run.js
+    - name: Create commit
+      run: |
+        cd ps-userlist-icons
+        git config user.name 'Parnassius'
+        git config user.email 'Parnassius@users.noreply.github.com'
+        git commit -am "Update icons"
+        git push
