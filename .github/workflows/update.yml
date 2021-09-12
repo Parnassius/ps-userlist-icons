@@ -31,7 +31,7 @@ jobs:
     - name: Create commit
       run: |
         cd ps-userlist-icons
-        git config user.name 'Parnassius'
-        git config user.email 'Parnassius@users.noreply.github.com'
+        git config user.name 'prns'
+        git config user.email '77806190+prnss@users.noreply.github.com'
         git commit -am "Update icons"
         git push
