@@ -9,10 +9,13 @@ window.BattlePokedex = require("./../pokemon-showdown-client/data/pokedex.js").B
 eval(fs.readFileSync("./../pokemon-showdown-client/js/battle-dex-data.js", "utf-8"));
 window.BattlePokemonIconIndexes = BattlePokemonIconIndexes;
 
-let data = require("./data.json");
+let data = fs.readFileSync("./data.csv", "utf-8").trim().split("\n");
 let icons = "";
-for (let user in data) {
-    let num = Dex.getPokemonIconNum(data[user]);
+for (let row of data) {
+    let parts = row.split(",");
+    let user = parts[0];
+    let pokemon = parts[1];
+    let num = Dex.getPokemonIconNum(pokemon);
     let top = Math.floor(num / 12) * 30;
     let left = (num % 12) * 40;
     icons += `.userlist li[id$='-userlist-user-${user}'] button::after {background-position: -${left}px -${top}px}\n`;
