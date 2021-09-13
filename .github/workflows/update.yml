@@ -26,7 +26,7 @@ jobs:
       run: pokemon-showdown-client/build full
     - name: Update files
       run: |
-        wget -O ps-userlist-icons/data.json ${{ secrets.JSON_DATA_URL }}
+        wget -O ps-userlist-icons/data.csv ${{ secrets.CSV_DATA_URL }}
         node ps-userlist-icons/run.js
     - name: Create commit
       run: |
