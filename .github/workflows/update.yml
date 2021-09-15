@@ -29,6 +29,7 @@ jobs:
       run: pokemon-showdown-client/build full
     - name: Update files
       run: |
+        pip install Pillow
         wget -O ps-userlist-icons/pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
         wget -O ps-userlist-icons/data.csv ${{ secrets.CSV_DATA_URL }}
         python ps-userlist-icons/offsets.py
