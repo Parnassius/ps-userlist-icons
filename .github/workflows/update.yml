@@ -23,11 +23,15 @@ jobs:
         path: pokemon-showdown-client
     - name: Set up node
       uses: actions/setup-node@v2
+    - name: Set up python
+      uses: actions/setup-python@v2
     - name: Build pokemon showdown client
       run: pokemon-showdown-client/build full
     - name: Update files
       run: |
+        wget -O ps-userlist-icons/pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
         wget -O ps-userlist-icons/data.csv ${{ secrets.CSV_DATA_URL }}
+        python ps-userlist-icons/offsets.py
         node ps-userlist-icons/run.js
     - name: Create commit
       run: |
