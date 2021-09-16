@@ -28,7 +28,7 @@ if (icons === fs.readFileSync("./icons.css", "utf-8")) {
 fs.writeFileSync("./icons.css", icons);
 
 let date = new Date();
-let version = `${date.getUTCFullYear()}.${date.getUTCMonth() + 1}.${date.getUTCDate()}`;
+let version = `${date.getUTCFullYear()}.${date.getUTCMonth() + 1}.${date.getUTCDate()}.${date.getUTCHours()}.${date.getUTCMinutes()}.${date.getUTCSeconds()}`;
 
 let css = fs.readFileSync("./base.css", "utf-8");
 css = css.replace("%version%", version);
