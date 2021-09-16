@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2021.9.16
+ @version      2021.9.16.7.54.58
  @license      MIT
  @preprocessor default
  ==/UserStyle== */
@@ -26,6 +26,9 @@
 .userlist li[id$='-userlist-user-aethernum'] button::after {background-position: -240px -669px}
 .userlist li[id$='-userlist-user-caionamax'] button::after {background-position: -40px -968px}
 .userlist li[id$='-userlist-user-cerbottana'] button::after {background-position: -200px -339px}
+.userlist li[id$='-userlist-user-loscarsone'] button::after {background-position: -200px -339px}
+.userlist li[id$='-userlist-user-luciobattisti'] button::after {background-position: -400px -1057px}
+.userlist li[id$='-userlist-user-magmar54'] button::after {background-position: -440px -1147px}
 .userlist li[id$='-userlist-user-megagr'] button::after {background-position: -400px -65px}
 .userlist li[id$='-userlist-user-melodyl'] button::after {background-position: -0px -1627px}
 .userlist li[id$='-userlist-user-parnassius'] button::after {background-position: -160px -2557px}
