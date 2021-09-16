@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2021.9.14
+ @version      2021.9.16
  @license      MIT
  @preprocessor default
  ==/UserStyle== */
@@ -16,19 +16,19 @@
     display: inline-block;
     position: absolute;
     right: -5px;
-    top: -5px;
+    top: 0;
     bottom: 0;
     background-image: url("https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v5");
     background-repeat: no-repeat;
     background-position: 40px 0;
     width: 40px;
 }
-.userlist li[id$='-userlist-user-aethernum'] button::after {background-position: -240px -660px}
-.userlist li[id$='-userlist-user-caionamax'] button::after {background-position: -40px -960px}
-.userlist li[id$='-userlist-user-cerbottana'] button::after {background-position: -200px -330px}
-.userlist li[id$='-userlist-user-megagr'] button::after {background-position: -400px -60px}
-.userlist li[id$='-userlist-user-melodyl'] button::after {background-position: -0px -1620px}
-.userlist li[id$='-userlist-user-parnassius'] button::after {background-position: -160px -2550px}
-.userlist li[id$='-userlist-user-sprinto99'] button::after {background-position: -400px -1110px}
+.userlist li[id$='-userlist-user-aethernum'] button::after {background-position: -240px -669px}
+.userlist li[id$='-userlist-user-caionamax'] button::after {background-position: -40px -968px}
+.userlist li[id$='-userlist-user-cerbottana'] button::after {background-position: -200px -339px}
+.userlist li[id$='-userlist-user-megagr'] button::after {background-position: -400px -65px}
+.userlist li[id$='-userlist-user-melodyl'] button::after {background-position: -0px -1627px}
+.userlist li[id$='-userlist-user-parnassius'] button::after {background-position: -160px -2557px}
+.userlist li[id$='-userlist-user-sprinto99'] button::after {background-position: -400px -1117px}
 
 }
