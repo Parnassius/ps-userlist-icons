@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2021.9.16.10.42.13
+ @version      2021.9.24
  @license      MIT
  @preprocessor default
  ==/UserStyle== */
@@ -18,7 +18,7 @@
     right: -5px;
     top: 0;
     bottom: 0;
-    background-image: url("https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v5");
+    background-image: url("https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v6");
     background-repeat: no-repeat;
     background-position: 40px 0;
     width: 40px;
