@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2021.9.25.18.30.32
+ @version      2021.9.25.18.54.46
  @license      MIT
  @preprocessor default
  ==/UserStyle== */
@@ -24,6 +24,7 @@
     width: 40px;
 }
 .userlist li[id$='-userlist-user-aethernum'] button::after {background-position: -240px -669px}
+.userlist li[id$='-userlist-user-alllikewas'] button::after {background-position: -40px -339px}
 .userlist li[id$='-userlist-user-braviaryy'] button::after {background-position: -280px -906px}
 .userlist li[id$='-userlist-user-caionamax'] button::after {background-position: -40px -968px}
 .userlist li[id$='-userlist-user-caterpiebefuddle'] button::after {background-position: -400px -9px}
@@ -43,10 +44,13 @@
 .userlist li[id$='-userlist-user-loscarsone'] button::after {background-position: -200px -339px}
 .userlist li[id$='-userlist-user-luciobattisti'] button::after {background-position: -400px -1057px}
 .userlist li[id$='-userlist-user-magmar54'] button::after {background-position: -440px -1147px}
+.userlist li[id$='-userlist-user-mcprincesspearl'] button::after {background-position: -120px -1176px}
 .userlist li[id$='-userlist-user-megagr'] button::after {background-position: -400px -65px}
 .userlist li[id$='-userlist-user-melodyl'] button::after {background-position: -0px -1627px}
 .userlist li[id$='-userlist-user-mihowk'] button::after {background-position: -440px -876px}
+.userlist li[id$='-userlist-user-mitsuki'] button::after {background-position: -80px -1177px}
 .userlist li[id$='-userlist-user-notfaironanybody'] button::after {background-position: -280px -364px}
+.userlist li[id$='-userlist-user-oizys'] button::after {background-position: -240px -1749px}
 .userlist li[id$='-userlist-user-pacncheese'] button::after {background-position: -360px -487px}
 .userlist li[id$='-userlist-user-parnassius'] button::after {background-position: -160px -2557px}
 .userlist li[id$='-userlist-user-pelippertheseagull'] button::after {background-position: -120px -697px}
