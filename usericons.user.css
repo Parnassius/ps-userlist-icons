@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2021.9.25.9.42.28
+ @version      2021.9.25.12.37.33
  @license      MIT
  @preprocessor default
  ==/UserStyle== */
@@ -26,6 +26,7 @@
 .userlist li[id$='-userlist-user-aethernum'] button::after {background-position: -240px -669px}
 .userlist li[id$='-userlist-user-braviaryy'] button::after {background-position: -280px -906px}
 .userlist li[id$='-userlist-user-caionamax'] button::after {background-position: -40px -968px}
+.userlist li[id$='-userlist-user-caterpiebefuddle'] button::after {background-position: -400px -9px}
 .userlist li[id$='-userlist-user-cerbottana'] button::after {background-position: -200px -339px}
 .userlist li[id$='-userlist-user-charinatu'] button::after {background-position: -160px -1204px}
 .userlist li[id$='-userlist-user-direhands'] button::after {background-position: -80px -757px}
@@ -34,6 +35,7 @@
 .userlist li[id$='-userlist-user-frogfacts'] button::after {background-position: -200px -1629px}
 .userlist li[id$='-userlist-user-goroyagami'] button::after {background-position: -440px -369px}
 .userlist li[id$='-userlist-user-gucci0goku'] button::after {background-position: -280px -1805px}
+.userlist li[id$='-userlist-user-huntail367'] button::after {background-position: -280px -906px}
 .userlist li[id$='-userlist-user-jamicaspeedboat'] button::after {background-position: -360px -669px}
 .userlist li[id$='-userlist-user-klegendary19'] button::after {background-position: -80px -2794px}
 .userlist li[id$='-userlist-user-ladderforharambe'] button::after {background-position: -360px -1897px}
