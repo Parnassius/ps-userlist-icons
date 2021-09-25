@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2021.9.25.9.8.11
+ @version      2021.9.25.9.13.34
  @license      MIT
  @preprocessor default
  ==/UserStyle== */
@@ -24,6 +24,7 @@
     width: 40px;
 }
 .userlist li[id$='-userlist-user-aethernum'] button::after {background-position: -240px -669px}
+.userlist li[id$='-userlist-user-braviaryy'] button::after {background-position: -280px -906px}
 .userlist li[id$='-userlist-user-caionamax'] button::after {background-position: -40px -968px}
 .userlist li[id$='-userlist-user-cerbottana'] button::after {background-position: -200px -339px}
 .userlist li[id$='-userlist-user-direhands'] button::after {background-position: -80px -757px}
@@ -31,6 +32,7 @@
 .userlist li[id$='-userlist-user-flygonisdragon'] button::after {background-position: -240px -816px}
 .userlist li[id$='-userlist-user-frogfacts'] button::after {background-position: -200px -1629px}
 .userlist li[id$='-userlist-user-goroyagami'] button::after {background-position: -440px -369px}
+.userlist li[id$='-userlist-user-gucci0goku'] button::after {background-position: -280px -1805px}
 .userlist li[id$='-userlist-user-jamicaspeedboat'] button::after {background-position: -360px -669px}
 .userlist li[id$='-userlist-user-klegendary19'] button::after {background-position: -80px -2794px}
 .userlist li[id$='-userlist-user-ladderforharambe'] button::after {background-position: -360px -1897px}
@@ -44,6 +46,7 @@
 .userlist li[id$='-userlist-user-pacncheese'] button::after {background-position: -360px -487px}
 .userlist li[id$='-userlist-user-parnassius'] button::after {background-position: -160px -2557px}
 .userlist li[id$='-userlist-user-pelippertheseagull'] button::after {background-position: -120px -697px}
+.userlist li[id$='-userlist-user-quagsirepng'] button::after {background-position: -120px -488px}
 .userlist li[id$='-userlist-user-rantai'] button::after {background-position: -200px -1147px}
 .userlist li[id$='-userlist-user-sirdragalge'] button::after {background-position: -360px -1985px}
 .userlist li[id$='-userlist-user-sprinto99'] button::after {background-position: -400px -1117px}
