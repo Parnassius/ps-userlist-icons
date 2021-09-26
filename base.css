@@ -3,25 +3,37 @@
  @namespace    github.com/parnassius
  @version      %version%
  @license      MIT
- @preprocessor default
+ @preprocessor less
  ==/UserStyle== */
 
 @-moz-document domain("play.pokemonshowdown.com") {
 
-.userlist li button {
-    position: relative;
-}
-.userlist li button::after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    right: -5px;
-    top: 0;
-    bottom: 0;
-    background-image: url("https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v6");
-    background-repeat: no-repeat;
-    background-position: 40px 0;
-    width: 40px;
-}
-%icons%
+    .userlist li {
+
+        .bg(@name, @pos) {
+            &[id$='-userlist-user-@{name}'] button::after {
+                background-position: @pos;
+            }
+        }
+        button {
+            position: relative;
+            &::after {
+                content: '';
+                display: inline-block;
+                position: absolute;
+                right: -5px;
+                top: 0;
+                bottom: 0;
+                background-image: url("https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v6");
+                background-repeat: no-repeat;
+                background-position: 40px 0;
+                width: 40px;
+            }
+        }
+        & {
+            %icons%
+        }
+
+    }
+
 }

@@ -19,7 +19,7 @@ for (let row of data) {
     let num = Dex.getPokemonIconNum(pokemon);
     let top = Math.floor(num / 12) * 30 + parseInt(offsets[num]);
     let left = (num % 12) * 40;
-    icons += `.userlist li[id$='-userlist-user-${user}'] button::after {background-position: -${left}px -${top}px}\n`;
+    icons += `.bg("${user}", -${left}px -${top}px);\n`;
 }
 
 if (icons === fs.readFileSync("./icons.css", "utf-8")) {
@@ -32,5 +32,5 @@ let version = `${date.getUTCFullYear()}.${date.getUTCMonth() + 1}.${date.getUTCD
 
 let css = fs.readFileSync("./base.css", "utf-8");
 css = css.replace("%version%", version);
-css = css.replace("%icons%", icons);
+css = css.replace(/^\s*%icons%/gm, icons.trim());
 fs.writeFileSync("./usericons.user.css", css);

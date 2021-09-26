@@ -1,67 +1,78 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2021.9.26.3.8.23
+ @version      2021.9.26.12.42.38
  @license      MIT
- @preprocessor default
+ @preprocessor less
  ==/UserStyle== */
 
 @-moz-document domain("play.pokemonshowdown.com") {
 
-.userlist li button {
-    position: relative;
-}
-.userlist li button::after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    right: -5px;
-    top: 0;
-    bottom: 0;
-    background-image: url("https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v6");
-    background-repeat: no-repeat;
-    background-position: 40px 0;
-    width: 40px;
-}
-.userlist li[id$='-userlist-user-aethernum'] button::after {background-position: -240px -669px}
-.userlist li[id$='-userlist-user-alllikewas'] button::after {background-position: -40px -339px}
-.userlist li[id$='-userlist-user-aquailsquery'] button::after {background-position: -0px -999px}
-.userlist li[id$='-userlist-user-braviaryy'] button::after {background-position: -280px -906px}
-.userlist li[id$='-userlist-user-caionamax'] button::after {background-position: -40px -968px}
-.userlist li[id$='-userlist-user-caterpiebefuddle'] button::after {background-position: -400px -9px}
-.userlist li[id$='-userlist-user-cerbottana'] button::after {background-position: -200px -339px}
-.userlist li[id$='-userlist-user-charinatu'] button::after {background-position: -160px -1204px}
-.userlist li[id$='-userlist-user-direhands'] button::after {background-position: -80px -757px}
-.userlist li[id$='-userlist-user-fer445'] button::after {background-position: -40px -1117px}
-.userlist li[id$='-userlist-user-flygonisdragon'] button::after {background-position: -240px -816px}
-.userlist li[id$='-userlist-user-francy'] button::after {background-position: -320px -1688px}
-.userlist li[id$='-userlist-user-frogfacts'] button::after {background-position: -200px -1629px}
-.userlist li[id$='-userlist-user-goroyagami'] button::after {background-position: -440px -369px}
-.userlist li[id$='-userlist-user-gucci0goku'] button::after {background-position: -400px -215px}
-.userlist li[id$='-userlist-user-huntail367'] button::after {background-position: -280px -906px}
-.userlist li[id$='-userlist-user-instruct'] button::after {background-position: -200px -2824px}
-.userlist li[id$='-userlist-user-jamicaspeedboat'] button::after {background-position: -360px -669px}
-.userlist li[id$='-userlist-user-klegendary19'] button::after {background-position: -80px -2794px}
-.userlist li[id$='-userlist-user-ladderforharambe'] button::after {background-position: -360px -1897px}
-.userlist li[id$='-userlist-user-lindauna'] button::after {background-position: -200px -1058px}
-.userlist li[id$='-userlist-user-loscarsone'] button::after {background-position: -200px -339px}
-.userlist li[id$='-userlist-user-luciobattisti'] button::after {background-position: -400px -1057px}
-.userlist li[id$='-userlist-user-magmar54'] button::after {background-position: -440px -1147px}
-.userlist li[id$='-userlist-user-mcprincesspearl'] button::after {background-position: -120px -1176px}
-.userlist li[id$='-userlist-user-megagr'] button::after {background-position: -400px -65px}
-.userlist li[id$='-userlist-user-melodyl'] button::after {background-position: -0px -1627px}
-.userlist li[id$='-userlist-user-mihowk'] button::after {background-position: -440px -876px}
-.userlist li[id$='-userlist-user-mitsuki'] button::after {background-position: -80px -1177px}
-.userlist li[id$='-userlist-user-notfaironanybody'] button::after {background-position: -280px -364px}
-.userlist li[id$='-userlist-user-oizys'] button::after {background-position: -240px -1749px}
-.userlist li[id$='-userlist-user-pacncheese'] button::after {background-position: -360px -487px}
-.userlist li[id$='-userlist-user-parnassius'] button::after {background-position: -160px -2557px}
-.userlist li[id$='-userlist-user-pelippertheseagull'] button::after {background-position: -120px -697px}
-.userlist li[id$='-userlist-user-pressplaybrenden'] button::after {background-position: -40px -936px}
-.userlist li[id$='-userlist-user-quagsirepng'] button::after {background-position: -120px -488px}
-.userlist li[id$='-userlist-user-rantai'] button::after {background-position: -160px -2973px}
-.userlist li[id$='-userlist-user-sinnohistrash'] button::after {background-position: -320px -636px}
-.userlist li[id$='-userlist-user-sirdragalge'] button::after {background-position: -360px -1985px}
-.userlist li[id$='-userlist-user-sprinto99'] button::after {background-position: -400px -1117px}
+    .userlist li {
+
+        .bg(@name, @pos) {
+            &[id$='-userlist-user-@{name}'] button::after {
+                background-position: @pos;
+            }
+        }
+        button {
+            position: relative;
+            &::after {
+                content: '';
+                display: inline-block;
+                position: absolute;
+                right: -5px;
+                top: 0;
+                bottom: 0;
+                background-image: url("https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v6");
+                background-repeat: no-repeat;
+                background-position: 40px 0;
+                width: 40px;
+            }
+        }
+        & {
+.bg("aethernum", -240px -669px);
+.bg("alllikewas", -40px -339px);
+.bg("aquailsquery", -0px -999px);
+.bg("braviaryy", -280px -906px);
+.bg("caionamax", -40px -968px);
+.bg("caterpiebefuddle", -400px -9px);
+.bg("cerbottana", -200px -339px);
+.bg("charinatu", -160px -1204px);
+.bg("direhands", -80px -757px);
+.bg("fer445", -40px -1117px);
+.bg("flygonisdragon", -240px -816px);
+.bg("francy", -320px -1688px);
+.bg("frogfacts", -200px -1629px);
+.bg("goroyagami", -440px -369px);
+.bg("gucci0goku", -400px -215px);
+.bg("huntail367", -280px -906px);
+.bg("instruct", -200px -2824px);
+.bg("jamicaspeedboat", -360px -669px);
+.bg("klegendary19", -80px -2794px);
+.bg("ladderforharambe", -360px -1897px);
+.bg("lindauna", -200px -1058px);
+.bg("loscarsone", -200px -339px);
+.bg("luciobattisti", -400px -1057px);
+.bg("magmar54", -440px -1147px);
+.bg("mcprincesspearl", -120px -1176px);
+.bg("megagr", -400px -65px);
+.bg("melodyl", -0px -1627px);
+.bg("mihowk", -440px -876px);
+.bg("mitsuki", -80px -1177px);
+.bg("notfaironanybody", -280px -364px);
+.bg("oizys", -240px -1749px);
+.bg("pacncheese", -360px -487px);
+.bg("parnassius", -160px -2557px);
+.bg("pelippertheseagull", -120px -697px);
+.bg("pressplaybrenden", -40px -936px);
+.bg("quagsirepng", -120px -488px);
+.bg("rantai", -160px -2973px);
+.bg("sinnohistrash", -320px -636px);
+.bg("sirdragalge", -360px -1985px);
+.bg("sprinto99", -400px -1117px);
+        }
+
+    }
 
 }
