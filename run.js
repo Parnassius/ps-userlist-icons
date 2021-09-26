@@ -32,5 +32,5 @@ let version = `${date.getUTCFullYear()}.${date.getUTCMonth() + 1}.${date.getUTCD
 
 let css = fs.readFileSync("./base.css", "utf-8");
 css = css.replace("%version%", version);
-css = css.replace(/^\s*%icons%/gm, icons.trim());
+css = css.replace(/^ *%icons%/gm, icons.trim());
 fs.writeFileSync("./usericons.user.css", css);

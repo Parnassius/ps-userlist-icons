@@ -30,9 +30,8 @@
                 width: 40px;
             }
         }
-        & {
-            %icons%
-        }
+
+        %icons%
 
     }
 
