@@ -2,16 +2,31 @@ name: update
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.setoutput.outputs.changed }}
+    steps:
+    - uses: actions/checkout@v2
+    - name: Update files
+      run: |
+        wget -O pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
+        wget -O data.csv ${{ secrets.CSV_DATA_URL }}
+    - name: Set output
+      id: setoutput
+      run: echo "::set-output name=changed::$( [[ "$(git status --porcelain)" ]] && echo -n 'true' )"
+
   build:
     runs-on: ubuntu-latest
-
+    needs: check
+    if: needs.check.outputs.changed == 'true'
     steps:
     - uses: actions/checkout@v2
       with:
