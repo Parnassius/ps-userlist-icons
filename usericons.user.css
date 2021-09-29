@@ -1,11 +1,12 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2021.9.28.16.32.16
+ @version      2021.9.29.13.26.6
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
  @supportURL   https://github.com/Parnassius/ps-userlist-icons/issues
+ @updateURL    https://userstyles.world/api/style/1251.user.css
  @license      MIT
  @preprocessor less
  ==/UserStyle== */
@@ -52,6 +53,7 @@
 .bg("frogfacts", -200px -1629px);
 .bg("goroyagami", -440px -369px);
 .bg("gucci0goku", -400px -215px);
+.bg("howkings", -200px -1058px);
 .bg("huntail367", -280px -906px);
 .bg("instruct", -200px -2824px);
 .bg("itszxc", -160px -308px);
@@ -73,6 +75,7 @@
 .bg("oizys", -240px -1749px);
 .bg("pacncheese", -360px -487px);
 .bg("parnassius", -160px -2557px);
+.bg("partman", -360px -1506px);
 .bg("pelippertheseagull", -120px -697px);
 .bg("pressplaybrenden", -40px -936px);
 .bg("pujo", -440px -2825px);
