@@ -2,10 +2,10 @@ const fs = require("fs");
 const path = require("path");
 process.chdir(__dirname);
 
-require("./../pokemon-showdown-client/js/battle-dex.js");
+require("./pokemon-showdown-client/js/battle-dex.js");
 
-window.BattlePokedex = require("./../pokemon-showdown-client/data/pokedex.js").BattlePokedex;
-eval(fs.readFileSync("./../pokemon-showdown-client/js/battle-dex-data.js", "utf-8"));
+window.BattlePokedex = require("./pokemon-showdown-client/data/pokedex.js").BattlePokedex;
+eval(fs.readFileSync("./pokemon-showdown-client/js/battle-dex-data.js", "utf-8"));
 window.BattlePokemonIconIndexes = BattlePokemonIconIndexes;
 
 let data = fs.readFileSync("./data.csv", "utf-8").trim().split("\n");

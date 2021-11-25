@@ -17,8 +17,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Update files
       run: |
-        wget -O ps-userlist-icons/pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
-        md5sum ps-userlist-icons/pokemonicons-sheet.png > ps-userlist-icons/pokemonicons-sheet.png.md5
+        wget -O pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
+        md5sum pokemonicons-sheet.png > pokemonicons-sheet.png.md5
         wget -O data.csv ${{ secrets.CSV_DATA_URL }}
     - name: Set output
       id: setoutput
@@ -30,8 +30,6 @@ jobs:
     if: needs.check.outputs.changed == 'true'
     steps:
     - uses: actions/checkout@v2
-      with:
-        path: ps-userlist-icons
     - name: Clone pokemon showdown client
       uses: actions/checkout@v2
       with:
@@ -46,14 +44,13 @@ jobs:
     - name: Update files
       run: |
         pip install Pillow
-        wget -O ps-userlist-icons/pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
-        md5sum ps-userlist-icons/pokemonicons-sheet.png > ps-userlist-icons/pokemonicons-sheet.png.md5
-        wget -O ps-userlist-icons/data.csv ${{ secrets.CSV_DATA_URL }}
-        python ps-userlist-icons/offsets.py
-        node ps-userlist-icons/run.js
+        wget -O pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
+        md5sum pokemonicons-sheet.png > pokemonicons-sheet.png.md5
+        wget -O data.csv ${{ secrets.CSV_DATA_URL }}
+        python offsets.py
+        node run.js
     - name: Create commit
       run: |
-        cd ps-userlist-icons
         git config user.name 'prns'
         git config user.email '77806190+prnss@users.noreply.github.com'
         git commit -am "Update icons" && git push || true

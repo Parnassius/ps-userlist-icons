@@ -1,9 +1,6 @@
 from itertools import product
-from os import chdir, path
 
 from PIL import Image
-
-chdir(path.dirname(__file__))
 
 offsets = []
 
