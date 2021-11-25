@@ -17,7 +17,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Update files
       run: |
-        curl https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png | md5sum > pokemonicons-sheet.png.md5
+        wget -O ps-userlist-icons/pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
+        md5sum ps-userlist-icons/pokemonicons-sheet.png > ps-userlist-icons/pokemonicons-sheet.png.md5
         wget -O data.csv ${{ secrets.CSV_DATA_URL }}
     - name: Set output
       id: setoutput
@@ -46,6 +47,7 @@ jobs:
       run: |
         pip install Pillow
         wget -O ps-userlist-icons/pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
+        md5sum ps-userlist-icons/pokemonicons-sheet.png > ps-userlist-icons/pokemonicons-sheet.png.md5
         wget -O ps-userlist-icons/data.csv ${{ secrets.CSV_DATA_URL }}
         python ps-userlist-icons/offsets.py
         node ps-userlist-icons/run.js
