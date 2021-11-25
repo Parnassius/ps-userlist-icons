@@ -4,7 +4,6 @@ process.chdir(__dirname);
 
 require("./../pokemon-showdown-client/js/battle-dex.js");
 
-window.BattlePokemonSprites = require("./../pokemon-showdown-client/data/pokedex-mini.js").BattlePokemonSprites;
 window.BattlePokedex = require("./../pokemon-showdown-client/data/pokedex.js").BattlePokedex;
 eval(fs.readFileSync("./../pokemon-showdown-client/js/battle-dex-data.js", "utf-8"));
 window.BattlePokemonIconIndexes = BattlePokemonIconIndexes;
