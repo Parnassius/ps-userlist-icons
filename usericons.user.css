@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2022.1.2.11.19.33
+ @version      2022.1.3.11.20.6
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -37,9 +37,11 @@
         }
 
 .bg("adamsants", -320px -1569px);
+.bg("adeptusxiao", -160px -1746px);
 .bg("aethernum", -240px -669px);
 .bg("alllikewas", -40px -339px);
 .bg("amogusitalianus", -440px -1175px);
+.bg("amolefoche", -200px -907px);
 .bg("aoieignigognoi", -280px -1357px);
 .bg("aquailsquery", -0px -999px);
 .bg("atomicedge", -240px -2885px);
@@ -53,6 +55,7 @@
 .bg("caionamax", -40px -968px);
 .bg("caterpiebefuddle", -400px -9px);
 .bg("cerbottana", -200px -339px);
+.bg("ch3rryello", -40px -395px);
 .bg("charinatu", -160px -1204px);
 .bg("cironapoli", -200px -1147px);
 .bg("cofffix", -40px -1058px);
@@ -135,6 +138,7 @@
 .bg("waffle2o21", -440px -2164px);
 .bg("waffle2o22", -160px -1806px);
 .bg("zombiezys", -120px -1867px);
+.bg("zoshade", -40px -455px);
 
     }
 
