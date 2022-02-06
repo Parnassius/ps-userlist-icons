@@ -1,4 +1,5 @@
-![Preview](https://raw.githubusercontent.com/Parnassius/ps-userlist-icons/main/preview.png)
+![Preview dark](https://raw.githubusercontent.com/Parnassius/ps-userlist-icons/main/preview-dark.png)
+![Preview light](https://raw.githubusercontent.com/Parnassius/ps-userlist-icons/main/preview-light.png)
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/Parnassius/ps-userlist-icons/raw/main/usericons.user.css)
 
