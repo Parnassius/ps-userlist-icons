@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2022.2.7.22.21.31
+ @version      2022.2.8.1.12.2
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -49,6 +49,7 @@
 .bg("atraxmadara", -0px -1655px);
 .bg("avcosmoem", -320px -2856px);
 .bg("bailacomoeltapu", -0px -964px);
+.bg("bidoofprincess", -440px -1836px);
 .bg("bingus", -280px -364px);
 .bg("bizzo", -0px -398px);
 .bg("bombintobear", -0px -548px);
@@ -74,6 +75,7 @@
 .bg("direhands", -80px -757px);
 .bg("duck", -440px -187px);
 .bg("duplifix", -440px -1478px);
+.bg("eli", -80px -1089px);
 .bg("emillight", -200px -367px);
 .bg("epf", -80px -2913px);
 .bg("f3rrari450", -400px -1028px);
@@ -90,7 +92,7 @@
 .bg("howkings", -200px -1058px);
 .bg("huntail367", -280px -906px);
 .bg("huntressrr", -240px -1419px);
-.bg("huntressrubyrose", -320px -936px);
+.bg("huntressrubyrose", -280px -2824px);
 .bg("hydro", -160px -429px);
 .bg("instruct", -280px -2583px);
 .bg("iridiumflares", -320px -965px);
@@ -124,6 +126,7 @@
 .bg("mitsuki", -80px -1177px);
 .bg("moretto", -240px -548px);
 .bg("mrsmiyano", -80px -337px);
+.bg("narukami", -80px -1089px);
 .bg("nightmarenidoking", -400px -65px);
 .bg("niko", -240px -2225px);
 .bg("nkfc", -440px -2884px);
@@ -154,11 +157,13 @@
 .bg("sprinto99", -400px -1117px);
 .bg("stfix", -40px -1539px);
 .bg("tachionico", -400px -1985px);
+.bg("tempoleon", -160px -909px);
 .bg("thetrickside", -280px -1805px);
 .bg("ultrasuca", -120px -158px);
 .bg("unitaeva69", -120px -1867px);
 .bg("uselesstrainer", -440px -2525px);
 .bg("velvet", -360px -639px);
+.bg("violet", -0px -1177px);
 .bg("waffle2o21", -440px -2164px);
 .bg("waffle2o22", -440px -2164px);
 .bg("zayneta", -320px -1117px);
