@@ -36,7 +36,7 @@ jobs:
         repository: smogon/pokemon-showdown-client
         path: pokemon-showdown-client
     - name: Set up node
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
     - name: Set up python
       uses: actions/setup-python@v2
     - name: Build pokemon showdown client
