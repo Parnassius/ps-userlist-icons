@@ -38,7 +38,7 @@ jobs:
     - name: Set up node
       uses: actions/setup-node@v3
     - name: Set up python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
     - name: Build pokemon showdown client
       run: pokemon-showdown-client/build full
     - name: Update files
