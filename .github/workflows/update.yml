@@ -14,7 +14,7 @@ jobs:
     outputs:
       changed: ${{ steps.setoutput.outputs.changed }}
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Update files
       run: |
         wget -O pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
@@ -29,9 +29,9 @@ jobs:
     needs: check
     if: needs.check.outputs.changed == 'true'
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Clone pokemon showdown client
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         repository: smogon/pokemon-showdown-client
         path: pokemon-showdown-client
