@@ -37,6 +37,8 @@ jobs:
         path: pokemon-showdown-client
     - name: Set up node
       uses: actions/setup-node@v3
+      with:
+        node-version: 14
     - name: Set up python
       uses: actions/setup-python@v3
     - name: Build pokemon showdown client
