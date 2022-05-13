@@ -41,9 +41,6 @@ jobs:
         node-version: lts/*
     - name: Set up python
       uses: actions/setup-python@v3
-    - name: Workaround for https://github.com/smogon/pokemon-showdown-client/issues/1968
-      run: npm install 'source-map@^0.5.0'
-      working-directory: pokemon-showdown-client
     - name: Build pokemon showdown client
       run: pokemon-showdown-client/build full
     - name: Update files
