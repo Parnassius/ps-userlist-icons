@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2022.5.19.2.4.50
+ @version      2022.5.19.6.32.49
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -250,6 +250,7 @@
 .bg("rojoamanecer", -80px -367px);
 .bg("roren", -440px -1204px);
 .bg("rumia", -280px -877px);
+.bg("rumialt", -200px -878px);
 .bg("ruminya", -0px -758px);
 .bg("ry42", -80px -1865px);
 .bg("saimincup", -360px -1659px);
