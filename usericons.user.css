@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2022.5.23.12.43.29
+ @version      2022.5.23.13.44.26
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -42,6 +42,7 @@
 .bg("adamsants", -320px -1569px);
 .bg("adeptusxiao", -160px -1746px);
 .bg("aethernum", -240px -669px);
+.bg("afklionyx", -440px -335px);
 .bg("ahelpfulfox", -200px -367px);
 .bg("aiyaru", -240px -1359px);
 .bg("alllikewas", -40px -339px);
@@ -65,16 +66,19 @@
 .bg("azulanochecer", -0px -367px);
 .bg("bailacomoeltapu", -0px -964px);
 .bg("bd3gamber2", -80px -1089px);
+.bg("biancawhitaker", -400px -1719px);
 .bg("biced", -320px -427px);
 .bg("bidoofprincess", -440px -1836px);
 .bg("bingus", -280px -364px);
 .bg("birdbwoy", -320px -2736px);
 .bg("bizzo", -0px -398px);
+.bg("blancubeofficiel", -200px -215px);
 .bg("bombintobear", -0px -548px);
 .bg("bondie", -440px -37px);
 .bg("braviaryy", -280px -906px);
 .bg("brawlmk", -360px -995px);
 .bg("breadloeuf", -440px -1204px);
+.bg("brokenfaithmagia", -360px -1775px);
 .bg("btaa", -440px -2794px);
 .bg("bubuvgc", -240px -639px);
 .bg("caballoindomable", -240px -184px);
@@ -89,9 +93,11 @@
 .bg("ch3rryello", -40px -395px);
 .bg("charinatu", -160px -1204px);
 .bg("cherrygirlriot", -0px -1059px);
+.bg("chiaravaggia", -400px -215px);
 .bg("chickenmaster6678", -80px -1089px);
 .bg("cironapoli", -440px -517px);
 .bg("cleffa", -200px -429px);
+.bg("coconfort", -80px -39px);
 .bg("cofffix", -40px -1058px);
 .bg("collapsediva", -320px -1983px);
 .bg("confix", -360px -2347px);
@@ -109,10 +115,12 @@
 .bg("dinosauriomauro", -40px -1747px);
 .bg("direhands", -80px -757px);
 .bg("diseasedrodent", -440px -848px);
+.bg("doraingrey", -280px -2913px);
 .bg("dorron", -120px -999px);
 .bg("duck", -440px -187px);
 .bg("duplifix", -440px -1478px);
 .bg("eli", -80px -1089px);
+.bg("elsa", -400px -1177px);
 .bg("emillight", -200px -367px);
 .bg("emma", -160px -1746px);
 .bg("epf", -80px -2913px);
@@ -147,7 +155,9 @@
 .bg("hydro", -160px -429px);
 .bg("hyperionts", -360px -936px);
 .bg("hyperoffensemagic", -40px -1234px);
+.bg("iaminaminitab", -160px -2973px);
 .bg("iiiodyne", -80px -877px);
+.bg("inezia", -280px -1296px);
 .bg("instruct", -280px -2583px);
 .bg("interestelar", -40px -849px);
 .bg("iridiumflares", -320px -965px);
@@ -161,6 +171,7 @@
 .bg("joker", -80px -1089px);
 .bg("juan13pro", -200px -634px);
 .bg("jukain", -80px -1089px);
+.bg("kalasmos", -40px -1234px);
 .bg("karoby03", -80px -2855px);
 .bg("kazuxx", -160px -1806px);
 .bg("keahi", -400px -1236px);
@@ -176,6 +187,7 @@
 .bg("l3ev", -80px -996px);
 .bg("lacrimrose", -440px -1565px);
 .bg("ladderforharambe", -360px -1897px);
+.bg("ladyrhea", -320px -1688px);
 .bg("ladyxbeans", -360px -1055px);
 .bg("laime", -120px -1327px);
 .bg("lalaya", -240px -487px);
@@ -186,6 +198,7 @@
 .bg("lanzallamasmou", -440px -1147px);
 .bg("lapecora", -120px -2824px);
 .bg("lapecora123", -120px -2824px);
+.bg("laserglace", -160px -455px);
 .bg("lei", -400px -1804px);
 .bg("lindauna", -200px -1058px);
 .bg("lionyx", -0px -2855px);
@@ -199,7 +212,9 @@
 .bg("lunala", -0px -1984px);
 .bg("luser2", -120px -817px);
 .bg("luser31", -120px -817px);
+.bg("macronium", -360px -366px);
 .bg("magmar54", -440px -1147px);
+.bg("majorita", -360px -214px);
 .bg("mammalu", -200px -367px);
 .bg("mandibuladel5555", -200px -1983px);
 .bg("mathy", -240px -397px);
@@ -219,19 +234,23 @@
 .bg("mudkipbowl", -80px -1205px);
 .bg("murman", -200px -1389px);
 .bg("narukami", -80px -1089px);
+.bg("nerabriscoletti", -320px -459px);
 .bg("nicksee", -400px -1236px);
 .bg("nightmarenidoking", -400px -65px);
 .bg("niko", -240px -2225px);
 .bg("nkfc", -440px -2884px);
 .bg("nonsprinto99", -360px -487px);
+.bg("nostenfer", -40px -427px);
 .bg("notfaironanybody", -280px -364px);
 .bg("nutbolt", -200px -2014px);
 .bg("oculars", -320px -2615px);
+.bg("ofenomeno", -440px -2014px);
 .bg("oizys", -240px -1749px);
 .bg("onyxveil", -280px -2617px);
 .bg("opnoob598", -80px -2733px);
 .bg("pacncheese", -360px -487px);
 .bg("pakyrozzano", -280px -1568px);
+.bg("palkiasonslaught", -160px -1204px);
 .bg("pancakelol", -0px -339px);
 .bg("paolode99", -200px -367px);
 .bg("parnassius", -160px -2557px);
@@ -316,10 +335,12 @@
 .bg("waffle2o21", -440px -2164px);
 .bg("waffle2o22", -440px -2164px);
 .bg("wetkisser", -240px -455px);
+.bg("wgx", -320px -1773px);
 .bg("wonter", -120px -309px);
 .bg("worldwidesteppers", -120px -817px);
 .bg("xurkiyee", -80px -1089px);
 .bg("xyz15", -120px -967px);
+.bg("ysandre", -440px -2794px);
 .bg("zayneta", -320px -1117px);
 .bg("zerokitss", -200px -2674px);
 .bg("zioziotrip", -440px -1385px);
