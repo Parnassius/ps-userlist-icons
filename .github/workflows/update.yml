@@ -41,6 +41,8 @@ jobs:
         node-version: lts/*
     - name: Set up python
       uses: actions/setup-python@v4
+      with:
+        python-version: '*'
     - name: Build pokemon showdown client
       run: pokemon-showdown-client/build full
     - name: Update files
