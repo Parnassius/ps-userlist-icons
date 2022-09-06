@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2022.9.2.2.29.58
+ @version      2022.9.6.6.20.39
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -188,7 +188,7 @@
 .bg("kiruhatade", -440px -2014px);
 .bg("klegendary19", -80px -2794px);
 .bg("kleut", -80px -1089px);
-.bg("kolohe2", -360px -1417px);
+.bg("kolohe2", -40px -2554px);
 .bg("kolohe3", -0px -1239px);
 .bg("kolohe8", -320px -427px);
 .bg("konpekopekora", -160px -455px);
@@ -328,6 +328,7 @@
 .bg("stevenuwu", -400px -1629px);
 .bg("stfix", -40px -1539px);
 .bg("stigmatasacrifice", -280px -1509px);
+.bg("swiffix", -360px -969px);
 .bg("tachionico", -400px -1985px);
 .bg("teamoflojera", -440px -335px);
 .bg("tempoleon", -160px -909px);
