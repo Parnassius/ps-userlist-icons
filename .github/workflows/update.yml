@@ -22,7 +22,7 @@ jobs:
         wget -O data.csv ${{ secrets.CSV_DATA_URL }}
     - name: Set output
       id: setoutput
-      run: echo "::set-output name=changed::$( [[ "$(git status --porcelain)" ]] && echo -n 'true' )"
+      run: echo "changed=$( [[ "$(git status --porcelain)" ]] && echo -n 'true' )" >> $GITHUB_OUTPUT
 
   build:
     runs-on: ubuntu-latest
