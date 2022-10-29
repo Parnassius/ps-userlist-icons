@@ -16,9 +16,8 @@ for (let row of data) {
     let user = parts[0];
     let pokemon = parts[1];
     let num = Dex.getPokemonIconNum(pokemon);
-    let top = Math.floor(num / 12) * 30 + parseInt(offsets[num]);
-    let left = (num % 12) * 40;
-    icons += `.bg("${user}", -${left}px -${top}px);\n`;
+    let offset = offsets[num];
+    icons += `.bg("${user}",${num},${offset});\n`;
 }
 
 if (icons === fs.readFileSync("./icons.css", "utf-8")) {
