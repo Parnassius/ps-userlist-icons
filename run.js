@@ -27,8 +27,10 @@ fs.writeFileSync("./icons.css", icons);
 
 let date = new Date();
 let version = `${date.getUTCFullYear()}.${date.getUTCMonth() + 1}.${date.getUTCDate()}.${date.getUTCHours()}.${date.getUTCMinutes()}.${date.getUTCSeconds()}`;
+let sheetURL = Dex.getPokemonIcon("bulbasaur").match(/url\(([^)]+)\)/)[1];
 
 let css = fs.readFileSync("./base.css", "utf-8");
 css = css.replace("%version%", version);
+css = css.replace("%sheet_url%", sheetURL);
 css = css.replace(/^ *%icons%/gm, icons.trim());
 fs.writeFileSync("./usericons.user.css", css);
