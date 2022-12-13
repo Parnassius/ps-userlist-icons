@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2022.12.13.1.45.2
+ @version      2022.12.13.20.23.0
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -31,15 +31,15 @@
                 right: -5px;
                 top: 0;
                 bottom: 0;
-                background-image: url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v9);
+                background-image: url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v10);
                 background-repeat: no-repeat;
                 background-position: 40px 0;
                 width: 40px;
             }
         }
 
-.bg("2soltgempress",992,3);
-.bg("3soltbloneliness",992,3);
+.bg("2soltgempress",991,3);
+.bg("3soltbloneliness",991,3);
 .bg("413xplayz",617,8);
 .bg("7l92w2p0",1322,3);
 .bg("about15guys",1309,6);
@@ -86,7 +86,7 @@
 .bg("bingus",151,4);
 .bg("birdbwoy",1220,6);
 .bg("bizzo",156,8);
-.bg("blanched",1002,3);
+.bg("blanched",959,3);
 .bg("blanchedpumpkin",710,9);
 .bg("blancubeofficiel",89,5);
 .bg("blitz",609,6);
@@ -95,7 +95,7 @@
 .bg("bondie",23,7);
 .bg("braviaryy",367,6);
 .bg("brawlmk",405,5);
-.bg("breadloeuf",970,3);
+.bg("breadloeuf",926,3);
 .bg("brokenfaithmagia",717,5);
 .bg("broomia",429,5);
 .bg("brotorterra",389,6);
@@ -234,7 +234,7 @@
 .bg("kolohe8",176,7);
 .bg("kolohex",710,9);
 .bg("konpekopekora",184,5);
-.bg("kris",934,3);
+.bg("kris",964,3);
 .bg("l3ev",398,6);
 .bg("lacrimrose",635,5);
 .bg("ladderforharambe",765,7);
@@ -446,7 +446,7 @@
 .bg("yotii",303,7);
 .bg("ysandre",1271,4);
 .bg("zayneta",452,7);
-.bg("zerabyte",992,3);
+.bg("zerabyte",991,3);
 .bg("zerokitss",1193,4);
 .bg("zioziotrip",563,5);
 .bg("zombiezys",747,7);
