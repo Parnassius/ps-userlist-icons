@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2023.2.1.1.51.55
+ @version      2023.2.2.15.21.39
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -73,6 +73,7 @@
 .bg("atomicedge",1302,5);
 .bg("atraxmadara",660,5);
 .bg("attackotter",345,8);
+.bg("audiino",531,7);
 .bg("ausma",654,7);
 .bg("avcosmoem",1292,6);
 .bg("avery",434,9);
@@ -349,6 +350,7 @@
 .bg("pissog",194,9);
 .bg("poaqo",4,9);
 .bg("pokemh",788,4);
+.bg("pokemonvortex",1034,9);
 .bg("pokken111",434,9);
 .bg("pooof",425,8);
 .bg("pp",393,9);
