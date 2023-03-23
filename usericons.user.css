@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2023.2.23.5.19.56
+ @version      2023.3.23.20.32.31
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -31,7 +31,7 @@
                 right: -5px;
                 top: 0;
                 bottom: 0;
-                background-image: url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v10);
+                background-image: url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v12);
                 background-repeat: no-repeat;
                 background-position: 40px 0;
                 width: 40px;
@@ -39,8 +39,8 @@
         }
 
 .bg("00tmm2",549,7);
-.bg("2soltgempress",991,3);
-.bg("3soltbloneliness",991,3);
+.bg("2soltgempress",991,5);
+.bg("3soltbloneliness",991,5);
 .bg("413xplayz",617,8);
 .bg("7l92w2p0",1322,3);
 .bg("about15guys",1309,6);
@@ -66,7 +66,7 @@
 .bg("argynt",172,9);
 .bg("argyntum",172,9);
 .bg("armin",1336,3);
-.bg("articoo",1002,3);
+.bg("articoo",1002,7);
 .bg("aryaa",330,6);
 .bg("asdlolxd69",637,7);
 .bg("asrd",1058,6);
@@ -93,12 +93,12 @@
 .bg("blanchedpumpkin",710,9);
 .bg("blancubeofficiel",89,5);
 .bg("blitz",609,6);
-.bg("bobbyzchoo",909,3);
+.bg("bobbyzchoo",909,5);
 .bg("bombintobear",216,8);
 .bg("bondie",23,7);
 .bg("braviaryy",367,6);
 .bg("brawlmk",405,5);
-.bg("breadloeuf",927,3);
+.bg("breadloeuf",927,7);
 .bg("brokenfaithmagia",717,5);
 .bg("broomia",429,5);
 .bg("brotorterra",389,6);
@@ -154,7 +154,7 @@
 .bg("diseasedrodent",347,8);
 .bg("doraingrey",1315,3);
 .bg("dorron",399,9);
-.bg("dratios",918,3);
+.bg("dratios",918,5);
 .bg("duck",83,7);
 .bg("ducky",143,5);
 .bg("duel",137,9);
@@ -186,7 +186,7 @@
 .bg("giokio",625,6);
 .bg("glalle",362,8);
 .bg("goofysandman",770,5);
-.bg("gorilaa",1235,3);
+.bg("gorilaa",1235,7);
 .bg("goroyagami",155,9);
 .bg("gottycatcheymall",845,4);
 .bg("greatdissasembler",789,6);
@@ -196,7 +196,7 @@
 .bg("herecomesteamcharm",558,6);
 .bg("heritage",881,5);
 .bg("hielofrito",1197,4);
-.bg("hisuianzoroark",1236,3);
+.bg("hisuianzoroark",1236,6);
 .bg("hmfadamew",151,4);
 .bg("hokufi",784,5);
 .bg("howkings",425,8);
@@ -244,7 +244,7 @@
 .bg("kolohe8",176,7);
 .bg("kolohex",710,9);
 .bg("konpekopekora",184,5);
-.bg("kris",964,3);
+.bg("kris",964,6);
 .bg("krytocon",1286,5);
 .bg("l3ev",398,6);
 .bg("lacrimrose",635,5);
@@ -384,11 +384,11 @@
 .bg("saltsensor",94,5);
 .bg("saviorinterlude",1294,4);
 .bg("scotteh",245,5);
-.bg("sebaaz",1235,3);
+.bg("sebaaz",1235,7);
 .bg("sectonia",579,7);
 .bg("seeyi",59,4);
-.bg("seji7",1235,3);
-.bg("sejitux",1235,3);
+.bg("seji7",1235,7);
+.bg("sejitux",1235,7);
 .bg("sejix",59,4);
 .bg("senatur",1302,5);
 .bg("senko",722,7);
@@ -477,7 +477,7 @@
 .bg("ysandre",1271,4);
 .bg("yuninokata",151,4);
 .bg("zayneta",452,7);
-.bg("zerabyte",991,3);
+.bg("zerabyte",991,5);
 .bg("zerokitss",1193,4);
 .bg("zioziotrip",563,5);
 .bg("zombiezys",747,7);
