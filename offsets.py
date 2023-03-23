@@ -7,7 +7,7 @@ def is_transparent(data):
 
 offsets = []
 
-with Image.open("pokemonicons-sheet.png") as im:
+with Image.open("pokemonicons-sheet.png").convert("RGBA") as im:
     for upper, left in product(range(0, im.height, 30), range(0, im.width, 40)):
         data = list(im.crop((left, upper, left + 40, upper + 30)).getdata())
 
