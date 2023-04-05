@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2023.4.5.3.20.12
+ @version      2023.4.5.16.28.58
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -134,6 +134,7 @@
 .bg("connfdm",181,5);
 .bg("contaminatedopal",251,8);
 .bg("corviknight",823,4);
+.bg("cosplayfurret",162,7);
 .bg("costumia",353,8);
 .bg("creepytree",709,5);
 .bg("crestillion",684,9);
@@ -152,6 +153,7 @@
 .bg("dinosauriomauro",697,7);
 .bg("direhands",302,7);
 .bg("diseasedrodent",347,8);
+.bg("dontufurretaboutme",162,7);
 .bg("doraingrey",1315,3);
 .bg("dorron",399,9);
 .bg("dratios",595,9);
