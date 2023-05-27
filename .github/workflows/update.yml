@@ -19,7 +19,7 @@ jobs:
       run: |
         wget -O pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
         md5sum pokemonicons-sheet.png > pokemonicons-sheet.png.md5
-        wget -O data.csv ${{ secrets.CSV_DATA_URL }}
+        wget -O data.csv ${{ vars.CSV_DATA_URL }}
     - name: Set output
       id: setoutput
       run: echo "changed=$( [[ "$(git status --porcelain)" ]] && echo -n 'true' )" >> $GITHUB_OUTPUT
@@ -50,7 +50,7 @@ jobs:
         pip install Pillow
         wget -O pokemonicons-sheet.png https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png
         md5sum pokemonicons-sheet.png > pokemonicons-sheet.png.md5
-        wget -O data.csv ${{ secrets.CSV_DATA_URL }}
+        wget -O data.csv ${{ vars.CSV_DATA_URL }}
         python offsets.py
         node run.js
     - name: Create commit
