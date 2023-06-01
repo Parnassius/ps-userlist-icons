@@ -43,6 +43,9 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '*'
+    - name: Workaround broken pokemon showdown client build
+      working-directory: ./pokemon-showdown-client
+      run: npm install '@babel/preset-env@7.21.5'
     - name: Build pokemon showdown client
       run: pokemon-showdown-client/build full
     - name: Update files
