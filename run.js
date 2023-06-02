@@ -1,36 +1,39 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
 process.chdir(__dirname);
 
-require("./pokemon-showdown-client/js/battle-dex.js");
+require('./pokemon-showdown-client/js/battle-dex.js');
 
-window.BattlePokedex = require("./pokemon-showdown-client/data/pokedex.js").BattlePokedex;
-eval(fs.readFileSync("./pokemon-showdown-client/js/battle-dex-data.js", "utf-8"));
+window.BattlePokedex = require('./pokemon-showdown-client/data/pokedex.js').BattlePokedex;
+eval(fs.readFileSync('./pokemon-showdown-client/js/battle-dex-data.js', 'utf8'));
 window.BattlePokemonIconIndexes = BattlePokemonIconIndexes;
 
-let data = fs.readFileSync("./data.csv", "utf-8").trim().split("\n");
-let offsets = fs.readFileSync("./offsets.csv", "utf-8").trim().split("\n");
-let icons = "";
-for (let row of data) {
-    let parts = row.split(",");
-    let user = parts[0];
-    let pokemon = parts[1];
-    let num = Dex.getPokemonIconNum(pokemon);
-    let offset = offsets[num];
-    icons += `.bg("${user}",${num},${offset});\n`;
+const csvData = fs.readFileSync('./data.csv', 'utf8').trim().split('\n');
+const offsets = fs.readFileSync('./offsets.csv', 'utf8').trim().split('\n');
+const users = {};
+for (const row of csvData) {
+    const [user, pokemon] = row.split(',');
+    const num = Dex.getPokemonIconNum(pokemon);
+    const offset = offsets[num];
+    if (!users.hasOwnProperty(num)) {
+        users[num] = {offset: offset, names: []};
+    }
+    users[num].names.push(user);
+}
+let icons = '';
+for (const [num, {offset, names}] of Object.entries(users)) {
+    icons += `.i(${num},${offset},"${names.join('","')}");\n`;
 }
 
-if (icons === fs.readFileSync("./icons.css", "utf-8")) {
-    return;
+if (icons !== fs.readFileSync('./icons.css', 'utf8')) {
+    fs.writeFileSync('./icons.css', icons);
+
+    const date = new Date();
+    const version = `${date.getUTCFullYear()}.${date.getUTCMonth() + 1}.${date.getUTCDate()}.${date.getUTCHours()}.${date.getUTCMinutes()}.${date.getUTCSeconds()}`;
+    const sheetURL = Dex.getPokemonIcon('bulbasaur').match(/url\(([^)]+)\)/)[1];
+
+    let css = fs.readFileSync('./base.css', 'utf8');
+    css = css.replace('%version%', version);
+    css = css.replace('%sheet_url%', sheetURL);
+    css = css.replace(/^ *%icons%/gm, icons.trim());
+    fs.writeFileSync('./usericons.user.css', css);
 }
-fs.writeFileSync("./icons.css", icons);
-
-let date = new Date();
-let version = `${date.getUTCFullYear()}.${date.getUTCMonth() + 1}.${date.getUTCDate()}.${date.getUTCHours()}.${date.getUTCMinutes()}.${date.getUTCSeconds()}`;
-let sheetURL = Dex.getPokemonIcon("bulbasaur").match(/url\(([^)]+)\)/)[1];
-
-let css = fs.readFileSync("./base.css", "utf-8");
-css = css.replace("%version%", version);
-css = css.replace("%sheet_url%", sheetURL);
-css = css.replace(/^ *%icons%/gm, icons.trim());
-fs.writeFileSync("./usericons.user.css", css);

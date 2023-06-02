@@ -15,17 +15,19 @@
 
     .userlist li {
 
-        .bg(@name, @num, @offset) {
-            &[id$='-userlist-user-@{name}'] button::after {
-                @left: mod(@num, 12) * 40;
-                @top: floor((@num / 12)) * 30 + @offset;
-                background-position: ~"-@{left}px -@{top}px";
-            }
+        .i(@num, @offset, @names...) {
+            @left: mod(@num, 12) * 40;
+            @top: floor((@num / 12)) * 30 + @offset;
+            each(@names, {
+                &[id$="-userlist-user-@{value}"] button::after {
+                    background-position: ~"-@{left}px -@{top}px";
+                }
+            });
         }
         button {
             position: relative;
             &::after {
-                content: '';
+                content: "";
                 display: inline-block;
                 position: absolute;
                 right: -5px;
