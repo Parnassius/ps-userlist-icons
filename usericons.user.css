@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2023.6.2.19.14.55
+ @version      2023.6.3.22.16.37
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -33,7 +33,7 @@
                 right: -5px;
                 top: 0;
                 bottom: 0;
-                background-image: url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v12);
+                background-image: url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v13);
                 background-repeat: no-repeat;
                 background-position: 40px 0;
                 width: 40px;
@@ -88,7 +88,7 @@
 .i(181,5,"connfdm","zoshade");
 .i(184,5,"konpekopekora","laserglace","ouinvestigation");
 .i(185,8,"wigglytree");
-.i(186,5,"wetkisser");
+.i(186,5,"ptoad","wetkisser");
 .i(188,9,"nerabriscoletti");
 .i(194,9,"pissog");
 .i(195,8,"aquagtothepast","mrbeastgaming","quagsirepng");
@@ -169,7 +169,7 @@
 .i(431,7,"theglameowmaster");
 .i(434,9,"avery","awavia","bd3gamber2","chickenmaster6678","eli","joker","jukain","kleut","mortalityi","narukami","pokken111","prestonplaysgw2","torchicim","xurkiyee");
 .i(443,9,"frozoid");
-.i(445,7,"cucaatomica","fer445");
+.i(445,7,"cucaatomica","fer445","yahboyboter");
 .i(452,7,"zayneta");
 .i(454,7,"sprinto99");
 .i(467,7,"lanzallamasmou","magmar54");
