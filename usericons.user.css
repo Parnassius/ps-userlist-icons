@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2023.12.13.5.15.54
+ @version      2023.12.19.2.28.39
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -33,7 +33,7 @@
                 right: -5px;
                 top: 0;
                 bottom: 0;
-                background-image: url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v15);
+                background-image: url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v16);
                 background-repeat: no-repeat;
                 background-position: 40px 0;
                 width: 40px;
@@ -310,57 +310,57 @@
 .i(991,5,"2soltgempress","3soltbloneliness","zerabyte");
 .i(999,4,"amogusitalianus");
 .i(1006,3,"tenzhii");
-.i(1026,8,"orsaoy0z");
-.i(1058,6,"asrd");
-.i(1065,7,"confix");
-.i(1071,7,"mafiassatan");
-.i(1087,5,"m3mesz");
-.i(1092,6,"actress90");
-.i(1139,5,"uselesstrainer");
-.i(1141,4,"kolochu");
-.i(1142,9,"faintedtorterra","snowtorterra","srod");
-.i(1144,7,"parnassius");
-.i(1159,3,"instruct");
-.i(1171,7,"onyxveil");
-.i(1172,5,"oculars");
-.i(1176,7,"ipocketmonsters");
-.i(1181,3,"shigeta9","steelballlrun");
-.i(1182,3,"collapsedmoon");
-.i(1193,4,"zerokitss");
-.i(1197,4,"hielofrito");
-.i(1208,6,"confixerie");
-.i(1214,3,"opnoob598");
-.i(1219,7,"pikasup");
-.i(1220,4,"birdbwoy");
-.i(1221,5,"losconosciuto");
-.i(1223,4,"megagr");
-.i(1232,7,"1vlteqrumi");
-.i(1235,7,"gorilaa","sebaaz","seji7","sejitux");
-.i(1236,4,"hisuianzoroark","mallcemizer");
-.i(1274,4,"klegendary19","redgoop115");
-.i(1278,3,"fijimacintosh");
-.i(1280,4,"mcklopediaa");
-.i(1283,4,"btaa","ysandre");
-.i(1287,4,"lapecora","lapecora123");
-.i(1290,3,"gaussfield");
-.i(1291,4,"huntressrubyrose","thingmaster");
-.i(1292,4,"uiopladder1x");
-.i(1295,5,"pujo");
-.i(1296,5,"eytha","lionyx","loethalion","rem");
-.i(1298,5,"karoby03","krytocon");
-.i(1304,6,"avcosmoem");
-.i(1306,4,"lalokomotora","saviorinterlude");
-.i(1314,5,"atomicedge","senatur","splaskaka");
-.i(1319,4,"nkfc");
-.i(1320,4,"foundthenlost");
-.i(1321,6,"about15guys");
-.i(1322,3,"epf");
-.i(1327,3,"doraingrey");
-.i(1334,3,"7l92w2p0");
-.i(1348,3,"akash370","armin","iaminaminitab","rantai");
-.i(1518,9,"pokemonvortex");
-.i(1522,7,"xoxodolls");
-.i(1535,9,"0ru");
+.i(1038,8,"orsaoy0z");
+.i(1070,6,"asrd");
+.i(1077,7,"confix");
+.i(1083,7,"mafiassatan");
+.i(1099,5,"m3mesz");
+.i(1104,6,"actress90");
+.i(1151,5,"uselesstrainer");
+.i(1153,4,"kolochu");
+.i(1154,9,"faintedtorterra","snowtorterra","srod");
+.i(1156,7,"parnassius");
+.i(1171,3,"instruct");
+.i(1183,7,"onyxveil");
+.i(1184,5,"oculars");
+.i(1188,7,"ipocketmonsters");
+.i(1193,3,"shigeta9","steelballlrun");
+.i(1194,3,"collapsedmoon");
+.i(1205,4,"zerokitss");
+.i(1209,4,"hielofrito");
+.i(1220,6,"confixerie");
+.i(1226,3,"opnoob598");
+.i(1231,7,"pikasup");
+.i(1232,4,"birdbwoy");
+.i(1233,5,"losconosciuto");
+.i(1235,4,"megagr");
+.i(1244,7,"1vlteqrumi");
+.i(1247,7,"gorilaa","sebaaz","seji7","sejitux");
+.i(1248,4,"hisuianzoroark","mallcemizer");
+.i(1322,4,"klegendary19","redgoop115");
+.i(1326,3,"fijimacintosh");
+.i(1328,4,"mcklopediaa");
+.i(1331,4,"btaa","ysandre");
+.i(1335,4,"lapecora","lapecora123");
+.i(1338,3,"gaussfield");
+.i(1339,4,"huntressrubyrose","thingmaster");
+.i(1340,4,"uiopladder1x");
+.i(1343,5,"pujo");
+.i(1344,5,"eytha","lionyx","loethalion","rem");
+.i(1346,5,"karoby03","krytocon");
+.i(1352,6,"avcosmoem");
+.i(1354,4,"lalokomotora","saviorinterlude");
+.i(1362,5,"atomicedge","senatur","splaskaka");
+.i(1367,4,"nkfc");
+.i(1368,4,"foundthenlost");
+.i(1369,6,"about15guys");
+.i(1370,3,"epf");
+.i(1375,3,"doraingrey");
+.i(1382,3,"7l92w2p0");
+.i(1396,3,"akash370","armin","iaminaminitab","rantai");
+.i(1566,9,"pokemonvortex");
+.i(1570,7,"xoxodolls");
+.i(1583,9,"0ru");
 
     }
 
