@@ -1,0 +1,20 @@
+{
+    extends: [
+        "config:best-practices",
+        "config:semverAllMonthly",
+    ],
+    additionalBranchPrefix: "{{datasource}}-",
+    commitMessagePrefix: "[{{datasource}}]",
+    customManagers: [
+        {
+            customType: "regex",
+            datasourceTemplate: "github-runners",
+            depTypeTemplate: "github-runner",
+            versioningTemplate: "docker",
+            fileMatch: ["^\\.github/workflows/.+\\.ya?ml$"],
+            matchStrings: [
+                "[\"']?(?<depName>[^\\s]+?)-(?<currentValue>[^\\s]+?)[\"']?\\s+# renovate: github-runner",
+            ],
+        },
+    ],
+}
