@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2026.1.27.6.29.6
+ @version      2026.1.28.18.31.52
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -200,7 +200,7 @@
 .i(471,6,"mcprincesspearl");
 .i(472,7,"lordspinarak");
 .i(473,7,"lumii");
-.i(478,7,"elsa");
+.i(478,7,"duckcop","elsa");
 .i(479,5,"dluxe");
 .i(482,5,"mudkipbowl");
 .i(483,4,"mex");
@@ -316,7 +316,6 @@
 .i(840,5,"opple");
 .i(842,5,"appletunalamode","lvl5pawmi","spritzie");
 .i(845,4,"gottycatcheymall","violet");
-.i(867,7,"duckcop");
 .i(869,6,"alcremie");
 .i(875,4,"noonions","waffle2o21","waffle2o22");
 .i(881,5,"heritage");
