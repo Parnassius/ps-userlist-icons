@@ -1,7 +1,7 @@
 /* ==UserStyle==
  @name         PS! userlist icons
  @namespace    github.com/parnassius
- @version      2026.5.22.19.28.13
+ @version      2026.5.24.6.33.53
  @description  See your and others' userlist icons on Pokemon Showdown
  @author       Parnassius (https://github.com/Parnassius)
  @homepageURL  https://github.com/Parnassius/ps-userlist-icons
@@ -33,7 +33,7 @@
                 right: -5px;
                 top: 0;
                 bottom: 0;
-                background-image: url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v21);
+                background-image: url(https://play.pokemonshowdown.com/sprites/pokemonicons-sheet.png?v22);
                 background-repeat: no-repeat;
                 background-position: 40px 0;
                 width: 40px;
